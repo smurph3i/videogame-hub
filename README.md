@@ -68,7 +68,6 @@ videogame-hub/
 │   │   ├── App.tsx
 │   │   ├── image-url.ts
 │   ├── index.tsx
-│   ├── App.tsx
 ├── package.json
 ├── README.md
 ```
