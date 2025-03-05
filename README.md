@@ -60,13 +60,19 @@ videogame-hub/
 │   │   ├── SortSelector.tsx
 │   ├── data/
 │   │   ├── genres.ts
+│   │   ├── platforms.ts
 │   ├── hooks/
 │   │   ├── useData.ts
 │   │   ├── useGames.ts
 │   │   ├── useGenre.ts
+│   │   ├── usePlatforms.ts
 │   ├── services/
-│   │   ├── App.tsx
+│   │   ├── api-client.ts
 │   │   ├── image-url.ts
+│   │   ├── App.tsx
+│   │   ├── main.tsx
+│   ├── theme.ts
+│   ├── index.css
 │   ├── index.tsx
 ├── package.json
 ├── README.md
