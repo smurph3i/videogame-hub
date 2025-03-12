@@ -47,6 +47,7 @@ The project structure is organized as follows:
 ```
 videogame-hub/
 ├── public/
+│   ├── index.html
 ├── src/
 │   ├── components/
 │   │   ├── GameCard.tsx
@@ -61,17 +62,35 @@ videogame-hub/
 │   ├── data/
 │   │   ├── genres.ts
 │   │   ├── platforms.ts
+│   ├── entities/
+│   │   ├── Genre.ts
+│   │   ├── Platform.ts
+│   │   ├── Game.ts
+│   │   ├── Publisher.ts
+│   │   ├── Screenshot.ts
+│   │   ├── Trailer.ts
 │   ├── hooks/
-│   │   ├── useData.ts
+│   │   ├── useGame.ts
 │   │   ├── useGames.ts
 │   │   ├── useGenre.ts
+│   │   ├── useGenres.ts
+│   │   ├── usePlatform.ts
 │   │   ├── usePlatforms.ts
+│   │   ├── useScreenshot.ts
+│   │   ├── useTrailers.ts
+│   ├── pages/
+│   │   ├── Layout.tsx
+│   │   ├── HomePage.tsx
+│   │   ├── GameDetailPage.tsx
+│   │   ├── ErrorPage.tsx
 │   ├── services/
 │   │   ├── api-client.ts
 │   │   ├── image-url.ts
 │   │   ├── App.tsx
 │   │   ├── main.tsx
-│   ├── theme.ts
+│   │   ├── theme.ts
+│   ├── routes/
+│   │   ├── index.ts
 │   ├── index.css
 │   ├── index.tsx
 ├── package.json
